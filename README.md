@@ -17,24 +17,24 @@ Functionality:
 * A Linear Regression model is used to predict future values for the next 30 days based on the historical data.
 * The actual and predicted values are plotted on a graph to show the time series and forecasted data.
 
-Files:
-date_metadata.csv: The generated file containing the date-related metadata for the year 2022.
+4. Files:
+* date_metadata.csv: The generated file containing the date-related metadata for the year 2022.
 
-Libraries Used:
+5. Libraries Used:
 * pandas: For generating, organizing, and managing the dataset.
 * matplotlib: For visualizing the time series data.
 * scikit-learn: For building a Linear Regression model to predict future values.
 
-Steps to Run:
+6. Steps to Run:
 a. Ensure the required libraries (pandas, matplotlib, and scikit-learn) are installed.
 b. Run the script to generate the dataset and save it as a CSV file.
 c. The script then loads the CSV, performs time series visualization, and uses Linear Regression to predict future values.
 
-Code Overview:
+7. Code Overview:
 * Data Creation: Generates a date range for 2022 and associates a sequential value for each day.
 * CSV Export: Saves the DataFrame as a CSV file in the specified file path.
 * Visualization: Displays the actual time series data using a line plot.
 * Prediction: Uses Linear Regression to predict and visualize future values for the next 30 days.
 
-                            **Important Notes:**
-Please note that around line 13 of metadatacreator.py and around line 9 of timeseriesanalysis.py, the file paths used must be specific to your system for saving and loading the CSV file.
+**Important Notes:**
+* Please note that around line 13 of metadatacreator.py and around line 9 of timeseriesanalysis.py, the file paths used must be specific to your system for saving and loading the CSV file.
